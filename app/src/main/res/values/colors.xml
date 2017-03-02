@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2C2C2C</color>
+    <color name="colorPrimaryDark">#333333</color>
+    <color name="colorAccent">#fba352</color>
+
+    <color name="orange_v2">#F3A556</color>
+    <color name="getcode">#CACACA</color>
+    <color name="main_bg_v2">#333333</color>
+    <color name="text_v2">#C8C8C8</color>
+    <color name="dialog_text_title_v2">#3F3F3F</color>
+    <color name="dialog_bg_v2">#DBDBDB</color>
+    <color name="dialog_text_desc_v2">#393939</color>
+    <color name="dialog_text_left_v2">#393939</color>
+    <color name="hint_v2">#969696</color>
+    <color name="home_button_v2">#272727</color>
+    <color name="home_text_v2">#D3D3D3</color>
+    <color name="sendorder_list_bg_v2">#363636</color>
+    <color name="sendorder_list_divider_v2">#2D2D2D</color>
+    <color name="text_enable_v2">#9C9C9C</color>
+    <color name="text_able_v2">#CACACA</color>
+    <color name="unify_background">#333333</color>
+    <color name="home_button">#f3f3f3</color>
+    <color name="home_button_press">#fba352</color>
+    <color name="home_button_press_ing">#fba352</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="orange">#fba352</color>
+    <color name="gray">#DDDDDD</color>
+    <color name="noticebackgroud">#efefef</color>
+    <color name="light_gray">#333333</color>
+    <color name="linecolor">#D4D4D4</color>
+    <color name="red">#E85656</color>
+    <color name="main_orange">#fda448</color>
+    <color name="main_text_black">#5B5B5B</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparent_dialog_color">#50000000</color>
+
+
+</resources>

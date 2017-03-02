@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <TextView
+        android:id="@+id/start_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="1dp"
+        android:text="@string/abouttext"
+        android:textColor="#434343" />
+
+    <TextView
+        android:id="@+id/start_address"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:padding="1dp"
+        android:textColor="#434343" />
+
+    <TextView
+        android:id="@+id/end_address"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:padding="1dp"
+        android:textColor="#434343" />
+
+    <TextView
+        android:id="@+id/type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="1dp"
+        android:textColor="#434343" />
+
+    <TextView
+        android:id="@+id/details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:lineSpacingExtra="2dp"
+        android:padding="1dp"
+        android:text="验证完善的服务验证您的身份信完善的服务验证完善的服务验证您的身份信完善的服务"
+        android:textColor="#434343" />
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="1dp"
+        android:textColor="#434343" />
+</LinearLayout>

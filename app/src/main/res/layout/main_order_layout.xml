@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/sendorder_list_bg_v2"
+    android:orientation="vertical">
+
+    <include layout="@layout/titlelayout" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <RadioGroup
+            android:id="@+id/order_radiogroup"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="2dp"
+
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="5dp">
+
+            <RadioButton
+                android:id="@+id/ordering_radiobutton"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:background="@drawable/v2_my_order_selector"
+                android:button="@null"
+                android:checked="true"
+                android:gravity="center"
+                android:text="@string/ordering"
+                android:textColor="@color/v2_tab_text_color_selector"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/ordered_radiobutton"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:background="@drawable/v2_my_order_selector"
+                android:button="@null"
+                android:gravity="center"
+                android:text="@string/ordered"
+                android:textColor="@color/v2_tab_text_color_selector"
+                android:textSize="16sp" />
+        </RadioGroup>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="bottom">
+
+            <ImageView
+                android:id="@+id/cursor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/v2_selector_cursor" />
+        </FrameLayout>
+
+    </FrameLayout>
+
+    <android.support.v4.view.ViewPager
+
+        android:id="@+id/order_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></android.support.v4.view.ViewPager>
+
+</LinearLayout>

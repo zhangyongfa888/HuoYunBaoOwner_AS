@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/unify_background"
+    android:orientation="vertical" >
+
+    <include layout="@layout/titlelayout" />
+
+    <zhidanhyb.huozhu.View.XList_View.XListView
+        android:id="@+id/gold_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/transparent"
+        android:listSelector="@color/transparent" >
+    </zhidanhyb.huozhu.View.XList_View.XListView>
+
+    <include layout="@layout/notdatalayout" />
+
+</LinearLayout>

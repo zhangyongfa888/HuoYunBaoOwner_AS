@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/main_bg_v2"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/main_bg_v2"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="3dp"
+            android:background="@drawable/v2_ll_send_order_bg">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/v2_img_sendorder_clock" />
+        </RelativeLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/sendorder_time_textview"
+                style="@style/personInfoEditText_V2"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:hint="@string/sendorder_time" />
+
+            <zhidanhyb.huozhu.View.DividerView
+                android:layout_gravity="bottom"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"></zhidanhyb.huozhu.View.DividerView>
+        </FrameLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="4dp"
+        android:background="@color/main_bg_v2"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="3dp"
+            android:background="@drawable/v2_ll_send_order_bg">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/v2_img_sendorder_start" />
+        </RelativeLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/sendorder_start_textview"
+                style="@style/personInfoEditText_V2"
+                android:gravity="center"
+                android:hint="@string/sendorder_start" />
+
+            <zhidanhyb.huozhu.View.DividerView
+                android:layout_gravity="bottom"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"></zhidanhyb.huozhu.View.DividerView>
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="4dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="3dp"
+            android:background="@drawable/v2_ll_send_order_bg">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/v2_img_sendorder_end" />
+        </RelativeLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/sendorder_end_textview"
+                style="@style/personInfoEditText_V2"
+                android:gravity="center"
+                android:hint="@string/sendorder_end" />
+
+            <zhidanhyb.huozhu.View.DividerView android:layout_gravity="bottom"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"></zhidanhyb.huozhu.View.DividerView>
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="4dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="3dp"
+            android:background="@drawable/v2_ll_send_order_bg">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/v2_img_sendorder_type" />
+        </RelativeLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/sendorder_goods_type_edittext"
+                style="@style/personInfoEditText_V2"
+                android:background="@null"
+                android:gravity="center"
+                android:hint="@string/goods_type"
+                android:maxLength="10" />
+
+            <zhidanhyb.huozhu.View.DividerView
+                android:layout_gravity="bottom"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"></zhidanhyb.huozhu.View.DividerView>
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="4dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="3dp"
+            android:background="@drawable/v2_ll_send_order_bg">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/v2_img_sendorder_money" />
+        </RelativeLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/sendorder_goods_evaluate_edittext"
+                style="@style/personInfoEditText_V2"
+                android:background="@null"
+                android:gravity="center"
+                android:hint="@string/goods_evaluate"
+                android:inputType="number"
+                android:maxLength="7" />
+
+            <zhidanhyb.huozhu.View.DividerView
+                android:layout_gravity="bottom"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"></zhidanhyb.huozhu.View.DividerView>
+
+        </FrameLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="4dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="3dp"
+            android:background="@drawable/v2_ll_send_order_bg">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/v2_img_sendorder_details" />
+        </RelativeLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/sendorder_remark_edittext"
+                style="@style/personInfoEditText_V2"
+                android:background="@null"
+                android:gravity="center"
+                android:hint="@string/sendorder_remark"
+                android:maxLength="30" />
+
+            <zhidanhyb.huozhu.View.DividerView android:layout_gravity="bottom"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"></zhidanhyb.huozhu.View.DividerView>
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

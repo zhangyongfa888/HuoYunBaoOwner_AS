@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="zhidanhyb.huozhu.Activity.Setting.ModifyPwdActivity">
+
+    <include layout="@layout/titlelayout"></include>
+
+    <LinearLayout
+        android:id="@+id/v2_modify_pwd_login"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/sendorder_list_bg_v2"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/personInfoText_V2"
+                    android:text="原密码" />
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <EditText
+                        android:id="@+id/v2_edit_old_pwd"
+                        style="@style/personInfoEditText_V2"
+                        android:hint="请输入原密码"
+                        android:inputType="textPassword" />
+
+                    <zhidanhyb.huozhu.View.DividerView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom">
+
+                    </zhidanhyb.huozhu.View.DividerView>
+                </FrameLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/personInfoText_V2"
+                    android:text="新密码" />
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <EditText
+                        android:id="@+id/v2_edit_new_pwd"
+                        style="@style/personInfoEditText_V2"
+
+                        android:hint="请输入新密码"
+                        android:inputType="textPassword" />
+
+                    <zhidanhyb.huozhu.View.DividerView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom">
+
+                    </zhidanhyb.huozhu.View.DividerView>
+                </FrameLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/personInfoText_V2"
+                    android:text="确认密码" />
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <EditText
+                        android:id="@+id/v2_edit_confirm_pwd"
+                        style="@style/personInfoEditText_V2"
+                        android:hint="请确认新密码"
+                        android:inputType="textPassword" />
+
+                    <zhidanhyb.huozhu.View.DividerView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom">
+
+                    </zhidanhyb.huozhu.View.DividerView>
+                </FrameLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/v2_btn_submit_with_divider_bg"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/v2_modify_cancel"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="50dp"
+                android:layout_weight="1"
+                android:background="@color/transparent"
+                android:gravity="center"
+                android:text="@string/deletecancle"
+                android:textColor="@color/dialog_text_desc_v2"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="8dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/v2_littlt_divider" />
+
+            <Button
+                android:id="@+id/v2_modify_confirm"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="50dp"
+                android:layout_weight="1"
+                android:background="@color/transparent"
+                android:gravity="center"
+                android:text="确认"
+                android:textColor="@color/dialog_text_desc_v2"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">货运宝-货主端</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="press_again_exit">再按一次退出</string>
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载...</string>
+    <string name="xiadan">立刻下单</string>
+    <string name="clear_cache">正在清除...</string>
+    <string name="sure">确认</string>
+    <string name="ok">确定</string>
+    <string name="hint">提示</string>
+    <string name="back">返回</string>
+    <string name="verification">验证</string>
+    <!-- 登录 -->
+    <string name="login">登录</string>
+    <string name="login_phone">请输入手机号</string>
+    <string name="login_pro">请输入密码</string>
+    <string name="login_button">登 录</string>
+    <string name="login_forgetpassword">忘记密码</string>
+    <string name="login_newuser">新增用户</string>
+    <string name="accomplish">完成</string>
+    <string name="v2_accomplish">完成</string>
+
+    <!-- 重置密码 -->
+    <string name="forgetpassword">重置密码</string>
+    <string name="password_text">密  码</string>
+    <string name="sure_password">确认密码</string>
+    <string name="password">由5位以上数字或字母组成</string>
+    <string name="password_again">再输入一次密码</string>
+    <string name="inputerror">输入错误</string>
+    <string name="inputhint">两次输入的密码密码不一致\n请重新输入</string>
+    <string name="getpassword">找回密码</string>
+    <!-- 注册 -->
+    <string name="register">注册</string>
+    <string name="name">姓名</string>
+    <string name="company">企业名称</string>
+    <string name="country">可不填</string>
+    <string name="sex">称呼</string>
+    <string name="editname">请输入姓名</string>
+    <string name="editname_">请输入您的公司名称</string>
+    <string name="sir">先生</string>
+    <string name="madam">女士</string>
+    <string name="editaccomplish">完成编辑</string>
+    <string name="statement"><font color="#DDDDDD">为了保护您的合法权益，并且获得更完善的服务和体验。请尽快进行</font> <font color="#F3A556"> 身份验证 </font> <font color="#DDDDDD">谢谢合作！</font></string>
+    <string name="phone">手机号</string>
+    <string name="editphone">请输入手机号</string>
+    <string name="verifycode">验证码</string>
+    <string name="verifyphone">验证手机号</string>
+    <string name="personinfo">个人信息</string>
+    <!-- 消息 -->
+    <string name="message">消息</string>
+    <string name="deletehint">是否删除？</string>
+
+    <!-- 我的信息 -->
+    <string name="me">我的信息</string>
+    <string name="comment">评论</string>
+    <string name="conversion_gold">兑换金币</string>
+    <string name="recharge">充值</string>
+    <string name="account">账户信息</string>
+    <string name="levelInfo">等级信息</string>
+    <string name="telephone">客服电话：400-796-9898</string>
+    <string name="jobtime">工作时间：08:30-17:30</string>
+    <string name="conversionglod">请输入兑换金币数量!</string>
+    <string name="rechargemoney">请输入充值金额!</string>
+    <!-- 订单 -->
+    <string name="order">我的订单</string>
+    <string name="order_delete">编辑</string>
+    <string name="ordering">进行中</string>
+    <string name="ordered">已完成</string>
+    <string name="editorder">填写订单</string>
+    <string name="editorder_again">填写订单</string>
+    <string name="sendorder_time">什么时候发车</string>
+    <string name="sendorder_start">从哪里出发</string>
+    <string name="sendorder_end">送到哪里去</string>
+    <string name="sendorder_goods">选择货物类型</string>
+    <string name="sendorder_car">选车型(可不填)</string>
+    <string name="sendorder_car_long">车长(可不填)</string>
+    <string name="goods_evaluate">运费估价（元）</string>
+    <string name="goods_type">货物类型:如钢材20吨</string>
+    <string name="sendorder_remark">订单详情：可填所需车长、车型、\n其他备注信息</string>
+    <string name="sendorder_add">加入订单表</string>
+    <string name="sendorder_home">首页推送</string>
+    <string name="sendorder_jinbi">(消费10金币)</string>
+    <string name="sendorder_sure">发          送</string>
+    <string name="modificationorder">确认修改</string>
+    <string name="modificationordertitle">修改订单</string>
+    <string name="cancle">取消订单</string>
+    <string name="notverification">您尚未验证</string>
+    <string name="verificationhint">对不起，您的货运宝账户尚未验证。\n欢迎验证！放心下单！</string>
+    <string name="orderlist">订单列表</string>
+    <string name="orderadd">继续添加</string>
+    <string name="orderfahuo">立即发货</string>
+    <string name="evaluate">估价 : </string>
+    <string name="element">  元</string>
+    <string name="unit_car">车</string>
+    <string name="unit_ton">吨</string>
+    <string name="orderone">正在推送司机</string>
+    <string name="ordertwo">等待确认司机</string>
+    <string name="orderthree">等待付款</string>
+    <string name="orderfive">订单已完成</string>
+    <string name="ordersix">订单取消</string>
+    <string name="choosedriver">确认司机</string>
+    <string name="paydetails">付款详情</string>
+    <string name="commentdriver">请对司机评价</string>
+    <string name="paytype">支付方式</string>
+    <string name="balancepay">账户余额支付</string>
+    <string name="alipay">支付宝支付</string>
+    <string name="weixinpay">微信支付 </string>
+    <string name="neadpay">需付款</string>
+
+    <!-- 选择货物类型 -->
+    <string name="sendorder_goods_type">货物类型</string>
+    <string name="sendorder_goods_type_cancle">返回</string>
+    <string name="sendorder_goods_type_sure">确定</string>
+    <string name="sendorder_goods_ton">吨位:</string>
+    <string name="sendorder_goods_tons">吨</string>
+    <string name="sendorder_goods_ton_number">输入吨位</string>
+
+    <!-- 确认发货 -->
+    <string name="sureorder_hint">提示</string>
+    <string name="sureorder_time">发车时间 : </string>
+    <string name="sureorder_start">起点: </string>
+    <string name="sureorder_end">终点: </string>
+    <string name="sureorder_goodstype">货物 类型: </string>
+    <string name="sureorder_car">车型 : </string>
+    <string name="sureorder_carlong">车长 : </string>
+    <string name="sureorder_remark">备注: </string>
+    <string name="sureorder_change">修改</string>
+
+    <!-- 设置 -->
+    <string name="setting">设置</string>
+    <string name="setting_modify">修改密码</string>
+    <string name="setting_suggest">建议反馈</string>
+    <string name="setting_updata">软件更新</string>
+    <string name="setting_clearcache">清除缓存</string>
+    <string name="setting_about">关于我们</string>
+    <string name="setting_loginout">退出登录</string>
+    <string name="opinion">提交</string>
+    <string name="opinion_content">说一些吧!</string>
+    <string name="about">关于我们</string>
+    <string name="abouttext">  “货运宝”是一款基于移动互联网技术开发的移动物流信息平台，致力于公路运输行业，为车找货，货找车提供全面的信息服务。\n\n\n  “货运宝”的服务对象几乎涵盖所有类型的货物和车辆，全面满足不同企业的货运物流运输需求。使用货运宝来进行线上托运，司机或者厂家每年节省两万元以上的中介费用。</string>
+    <string name="abouturl">网址：www.huoyun8.cn</string>
+    <string name="updataversion">发现新版本</string>
+    <string name="updatabutton">更新</string>
+    <string name="updatacancle">下次再说</string>
+
+    <!-- 验证身份 -->
+    <string name="uploadimage">-      上传有效证件      -</string>
+    <string name="authentication">身份验证</string>
+    <string name="verify">验证</string>
+    <string name="verify_explain">验证您的身份信息能让您获得更多的信用并获得更多更完善的服务。您上传的验证信息仅供验证使用不会对外公开!</string>
+    <string name="verify_goal">企业用户将拥有更多增值服务"</string>
+
+    <!-- 账户 -->
+    <string name="gold">金币</string>
+    <string name="balance">余额</string>
+    <string name="successorder">成交订单</string>
+    <string name="grade">评分</string>
+    <string name="withdraw_deposit">提现</string>
+    <string name="exchange">兑换金币</string>
+    <string name="bankcard">银行卡</string>
+    <string name="charge">充值</string>
+    <string name="addbankcard">添加银行卡</string>
+    <string name="mybankcard">我的银行卡</string>
+    <string name="bankcardpasswordsetting">设置提现密码</string>
+    <string name="paypaw">设置交易密码</string>
+    <string name="sixpassword">请输入6位数字密码</string>
+    <string name="sixpasswords">请重复输入6位数字密码</string>
+    <string name="submitpassword">提交密码</string>
+    <string name="goldrecord">金币记录</string>
+    <string name="accountrecord">账户记录</string>
+
+    <!-- 删除消息pop -->
+    <string name="deletecancle">取消</string>
+    <string name="delete">删除</string>
+
+    <!-- 退出登录 -->
+    <string name="exitlogin">退出登录</string>
+    <string name="exitlogin_hine">是否退出?</string>
+    <string name="title_activity_send_order__choose_loc_by_map">SendOrder_ChooseLocByMapActivity</string>
+    <string name="select_all">全选</string>
+    <string name="not_select_all">全不选</string>
+    <string name="setting_modify_login">登陆密码</string>
+    <string name="setting_modify_pay">支付密码</string>
+
+</resources>

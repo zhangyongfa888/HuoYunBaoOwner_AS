@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dialog_bg_v2"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="0.1"
+            android:gravity="center_vertical"
+            android:padding="15dp"
+            android:text="订单信息"
+            android:textColor="#A7A7A7"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/payorder_orderid_textview"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:padding="15dp"
+            android:textColor="#A7A7A7"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="#B7B7B7" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:text="@string/paytype"
+            android:textColor="#A7A7A7"
+            android:textSize="15sp" />
+
+        <RadioGroup
+            android:id="@+id/payorder_radiogroup"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/payorder_balance_radiobutton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:button="@null"
+                android:checked="true"
+                android:drawableRight="@drawable/pay_radiobuttons"
+                android:padding="5dp"
+                android:text="@string/balancepay"
+                android:textColor="#A7A7A7" />
+
+            <RadioButton
+                android:id="@+id/payorder_alipay_radiogroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:button="@null"
+                android:drawableRight="@drawable/pay_radiobuttons"
+                android:padding="5dp"
+                android:text="@string/alipay"
+                android:textColor="#A7A7A7" />
+
+            <RadioButton
+                android:id="@+id/payorder_weixinpay_radiogroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:button="@null"
+                android:drawableRight="@drawable/pay_radiobuttons"
+                android:padding="5dp"
+                android:text="@string/weixinpay"
+                android:textColor="#A7A7A7" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="#B7B7B7" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="@string/neadpay"
+            android:textColor="@color/orange_v2"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/payorder_money_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/orange_v2"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+
+</LinearLayout>

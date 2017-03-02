@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/sendorder_list_bg_v2"
+    android:orientation="vertical">
+
+    <include layout="@layout/titlelayout" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/v2_img_login_banner_2"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/v2_message_little" />
+
+        <TextView
+            android:id="@+id/orderdetails_orderid_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:textColor="@color/text_v2"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/orderdetails_time_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/text_v2" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/orderdetails_startsite_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="3dp"
+
+                android:padding="3dp"
+                android:textColor="@color/text_v2"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/orderdetails_endtsite_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="3dp"
+                android:padding="3dp"
+                android:textColor="@color/text_v2"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/orderdetails_goods_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="3dp"
+                android:padding="3dp"
+                android:textColor="@color/text_v2" />
+
+            <TextView
+                android:id="@+id/orderdetails_remark_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="3dp"
+                android:padding="3dp"
+                android:textColor="@color/text_v2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="3 "
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/orderdetails_offerbargain_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:textColor="@color/text_v2"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/orderdetails_monet_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="@color/orange_v2" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+    <ListView
+        android:id="@+id/orderdetails_offer_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"></ListView>
+
+</LinearLayout>

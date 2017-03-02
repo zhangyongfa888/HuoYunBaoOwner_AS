@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/unify_background"
+    android:orientation="vertical" >
+
+    <include layout="@layout/titlelayout" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <com.baidu.mapapi.map.MapView
+            android:id="@+id/locationmapview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+        </com.baidu.mapapi.map.MapView>
+
+        <Button
+            android:visibility="gone"
+            android:id="@+id/location_order_xiadan_button"
+            android:layout_width="140dp"
+            android:layout_height="45dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="50dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/orange_circular_bead_buttons"
+            android:text="@string/xiadan"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_centerInParent="true"
+            android:orientation="vertical"
+            android:paddingBottom="65dp" >
+			
+            <TextView
+                android:id="@+id/location_add_textview"
+                android:layout_width="wrap_content"
+                android:padding="3dp"
+                android:text="获取中..."
+                android:layout_height="wrap_content"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:src="@drawable/place_distination" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

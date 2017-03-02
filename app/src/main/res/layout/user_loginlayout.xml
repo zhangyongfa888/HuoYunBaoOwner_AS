@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_bg_v2"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#2e2e2e"
+        android:visibility="gone">
+
+        <include layout="@layout/titlelayout" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:background="@color/sendorder_list_bg_v2"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#2E2E2E"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/login_banner"
+                    android:layout_width="match_parent"
+                    android:layout_height="142dp"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <ImageView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/v2_img_login_banner_1" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/login_logo_im"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/v2_img_login_banner_2" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/login_logo_im"
+                android:background="@color/sendorder_list_bg_v2"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/v2_login_account"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+
+                    android:gravity="bottom"
+                    android:minHeight="40dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40dp"
+                        android:background="@color/sendorder_list_bg_v2"
+                        android:text="账号"
+                        android:textColor="@color/text_v2"
+                        android:textSize="16sp" />
+
+                    <EditText
+                        android:id="@+id/login_phone_textview"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:hint="@string/login_phone"
+                        android:inputType="number"
+                        android:maxLength="11"
+                        android:minHeight="30dp"
+                        android:paddingLeft="20dp"
+                        android:textColor="@color/text_v2"
+                        android:textColorHint="@color/hint_v2"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <zhidanhyb.huozhu.View.DividerView
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"></zhidanhyb.huozhu.View.DividerView>
+
+                <LinearLayout
+                    android:id="@+id/v2_login_pwd"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="bottom"
+                    android:minHeight="40dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40dp"
+                        android:background="@color/sendorder_list_bg_v2"
+                        android:text="密码"
+                        android:textColor="@color/text_v2"
+                        android:textSize="16sp" />
+
+                    <EditText
+                        android:id="@+id/login_password_textview"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:hint="@string/login_pro"
+                        android:inputType="textPassword"
+                        android:minHeight="30dp"
+                        android:paddingLeft="20dp"
+                        android:textColor="@color/text_v2"
+                        android:textColorHint="@color/hint_v2"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <zhidanhyb.huozhu.View.DividerView
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"></zhidanhyb.huozhu.View.DividerView>
+
+                <Button
+                    android:id="@+id/login_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_marginTop="33dp"
+                    android:background="@drawable/v2_submit_bg_orange_selector"
+                    android:gravity="center"
+                    android:text="@string/login_button"
+                    android:textColor="@color/dialog_text_title_v2"
+                    android:textSize="18sp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/login_forgetpw_textview"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/login_forgetpassword"
+                        android:textColor="@color/text_v2" />
+
+                    <TextView
+                        android:layout_width="1dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@color/text_v2" />
+
+                    <TextView
+                        android:id="@+id/login_newuser_textview"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/login_newuser"
+                        android:textColor="@color/text_v2" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

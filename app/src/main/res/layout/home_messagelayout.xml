@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/layout2_listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/listview_item_bg"
+        android:orientation="horizontal"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:id="@+id/v2_ll_img"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageView_icon_home"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_centerVertical="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/v2_push_default" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/sendorder_list_divider_v2"></View>
+
+        <TextView
+            android:id="@+id/homemessage_content_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="9dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="9dp"
+            android:layout_toRightOf="@+id/imageView_icon_home"
+            android:ellipsize="end"
+            android:lineSpacingExtra="5dp"
+            android:maxLines="2"
+            android:text="2010年4月19日 - 刚开始使用软件,不清楚buy、sellshort与A_sendorder有什么区别,在正式自动交易时究竟用哪个?能不能给出一个完整交易程序的例程,要稳定一点的"
+            android:textColor="@color/dialog_bg_v2"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view_home"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/layout2_listView"
+        android:background="@color/sendorder_list_divider_v2" />
+
+    <!--<TextView
+        android:id="@+id/homemessage_content_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:textSize="12sp"
+        android:lineSpacingMultiplier="1"
+        android:textColor="@color/black" />-->
+
+    <RelativeLayout
+        android:id="@+id/layout_imageView"
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:layout_below="@+id/view_home"
+        android:background="@color/sendorder_list_bg_v2"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/homeMessage_imageView_ad"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/v2_banner" />
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/view_home_ad"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/layout_imageView"
+        android:background="@color/sendorder_list_divider_v2"
+        android:visibility="gone" />
+
+
+</LinearLayout>

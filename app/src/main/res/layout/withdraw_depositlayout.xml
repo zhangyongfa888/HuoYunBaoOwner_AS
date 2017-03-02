@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/withdraw_linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/withdraw_deposit_hint_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="请输入密码，以验证身份"
+            android:textColor="@color/text_v2"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/withdraw_deposit_money_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:textColor="@color/orange"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/password_frame"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/input_password_one_edittext"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:background="@drawable/password_frame"
+                android:cursorVisible="false"
+                android:gravity="center"
+                android:inputType="numberPassword"
+                android:maxLength="1"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+            <EditText
+                android:id="@+id/input_password_two_edittext"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:background="@drawable/password_frame"
+                android:cursorVisible="false"
+                android:gravity="center"
+                android:inputType="numberPassword"
+                android:maxLength="1"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+            <EditText
+                android:id="@+id/input_password_three_edittext"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:background="@drawable/password_frame"
+                android:cursorVisible="false"
+                android:gravity="center"
+                android:inputType="numberPassword"
+                android:maxLength="1"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+            <EditText
+                android:id="@+id/input_password_four_edittext"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:background="@drawable/password_frame"
+                android:cursorVisible="false"
+                android:gravity="center"
+                android:inputType="numberPassword"
+                android:maxLength="1"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+            <EditText
+                android:id="@+id/input_password_five_edittext"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:background="@drawable/password_frame"
+                android:cursorVisible="false"
+                android:gravity="center"
+                android:inputType="numberPassword"
+                android:maxLength="1"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+            <EditText
+                android:id="@+id/input_password_six_edittext"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:background="@drawable/password_frame"
+                android:cursorVisible="false"
+                android:gravity="center"
+                android:inputType="numberPassword"
+                android:maxLength="1"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <include layout="@layout/keyboard_layout" />
+    </LinearLayout>
+</LinearLayout>

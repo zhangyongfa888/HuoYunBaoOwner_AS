@@ -1,0 +1,137 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="dialog" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <!-- 边框 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 半透明 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 无标题 -->
+        <item name="android:windowBackground">@color/transparent</item>
+        <!-- 自己想要的背景 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 模糊 -->
+        <!--<item name="android:layout_marginRight">20dp</item>-->
+        <!--<item name="android:layout_marginLeft">20dp</item>-->
+    </style>
+
+    <style name="dialog_v2" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <!-- 边框 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 半透明 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 无标题 -->
+        <item name="android:windowBackground">@color/transparent</item>
+        <!-- 自己想要的背景 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <!--<item name="android:layout_marginTop">162dp</item>-->
+        <!-- 模糊 -->
+        <!--<item name="android:layout_marginRight">20dp</item>-->
+        <!--<item name="android:layout_marginLeft">20dp</item>-->
+    </style>
+
+    <style name="dialog_sign" parent="AppTheme">
+        <item name="android:backgroundDimEnabled">true</item> <!-- activity 不变暗 -->
+        <item name="android:windowIsFloating">true</item> <!-- 是否浮现在activity之上 -->
+        <item name="android:windowNoTitle">true</item> <!-- 无标题 -->
+        <item name="android:windowIsTranslucent">true</item> <!-- 半透明 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+    </style>
+
+    <style name="roomRatingBar">
+        <item name="android:progressDrawable">@drawable/ratingbar_drawable</item>
+    </style>
+
+    <style name="RatingBar">
+        <item name="android:progressDrawable">@drawable/ratingbar_drawable</item>
+        <item name="android:minHeight">20dp</item>
+        <item name="android:maxHeight">30dp</item>
+    </style>
+
+    <style name="MyDialogStyle">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <style name="myDialogTheme" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@color/transparent</item>
+    </style>
+
+    <style name="view_anim">
+        <item name="@android:windowEnterAnimation">@anim/fade_in</item>
+        <item name="@android:windowExitAnimation">@anim/fade_out</item>
+    </style>
+
+    <!--      android:layout_width="80dp"
+                android:layout_height="36dp"
+                android:layout_marginLeft="2dp"
+                android:background="@color/main_bg_v2"
+                android:textColor="@color/orange_v2"
+                android:textSize="15sp"
+                android:gravity="center"-->
+    <style name="personInfoText_V2">
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginLeft">2dp</item>
+        <item name="android:background">@drawable/v2_ll_send_order_bg</item>
+        <item name="android:textColor">@color/orange_v2</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center</item>
+
+    </style>
+    <!--   android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:paddingLeft="20dp"
+                android:textColor="@color/hint_v2"
+                android:textColorHint="@color/hint_v2"
+                android:textSize="13sp" -->
+    <style name="personInfoEditText_V2" parent="Widget.AppCompat.EditText">
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/main_bg_v2</item>
+        <item name="android:textColor">@color/endtext_enable_color</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColorHint">@color/hint_v2</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="v2_checkbox" parent="Base.Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/v2_checkbox_selector</item>
+        <item name="android:paddingLeft">10.0dip</item>
+        <item name="android:maxHeight">10.0dip</item>
+
+    </style>
+
+</resources>

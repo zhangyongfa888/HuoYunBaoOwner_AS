@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/sendorder_list_bg_v2"
+    android:orientation="vertical" >
+
+    <include layout="@layout/titlelayout" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <zhidanhyb.huozhu.View.Swipemenulistview.SwipeMenuListView
+            android:id="@+id/bankcard_listview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@color/transparent"
+            android:listSelector="@color/transparent" >
+        </zhidanhyb.huozhu.View.Swipemenulistview.SwipeMenuListView>
+
+        <ViewStub
+            android:id="@+id/addbankcard_import"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout="@layout/add_bankcardlayout" />
+
+        <ViewStub
+            android:id="@+id/withdraw_import"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout="@layout/bankcardwithdrawlayout" />
+    </RelativeLayout>
+
+</LinearLayout>
